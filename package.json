@@ -4,8 +4,8 @@
 	"description": "",
 	"main": "backend/server.js",
 	"scripts": {
-		"dev": " nodemon backend/server.js",
-		"start": "NODE_ENV=production node backend/server.js",
+		"dev": " nodemon server.js",
+		"start": "NODE_ENV=production node server.js",
 		"build": "npm install && npm install --prefix frontend && npm run build --prefix frontend"
 	},
 	"keywords": [],
