@@ -2,7 +2,7 @@
 	"name": "twitter-clone",
 	"version": "1.0.0",
 	"description": "",
-	"main": "backend/server.js",
+	"main": "server.js",
 	"scripts": {
 		"dev": " nodemon server.js",
 		"start": "NODE_ENV=production node server.js",
